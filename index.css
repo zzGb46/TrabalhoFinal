@@ -1,0 +1,59 @@
+
+    
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+#caixa{
+    display: flex;
+    justify-content: center;
+}
+
+#paiz{
+    height: 50px;
+    width: 40px;
+}
+
+#linha{
+    display: flex;
+    overflow-x: scroll;
+    width: 800px;
+    height: 600px;
+}
+
+
+#imagens{
+    width: 800px;
+    height: 600px;
+}
+
+.primeiro{
+animation:carrossel 10s ease-in-out infinite; 
+}
+
+
+
+@keyframes carrossel{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: -800px;
+    }
+    75%{
+        margin-left:-1580px ;
+    }
+} 
+
+#Precos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+   
+}
+.menus{
+    border: 2px solid black;
+    height: 400px;
+    width: 200px;
+}
