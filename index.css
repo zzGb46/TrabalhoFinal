@@ -1,4 +1,6 @@
-
+body{
+    background-color: #b4dcb0;
+}
     
 
 ul{
@@ -8,41 +10,82 @@ ul{
 #caixa{
     display: flex;
     justify-content: center;
+    margin-bottom: -60px;
+    background-color: #301f17;
+    width: 1500px;
+    border-radius: 20px;
 }
 
-#paiz{
-    height: 50px;
-    width: 40px;
+#central{
+    display: flex;
+    justify-content: center;
 }
+
+
+
+#novaLogo{
+    height: 400px;
+    width: 600px;
+    margin-top: -70px;
+    margin-bottom: -100px;
+}
+
+.meio{
+    
+}
+
 
 #linha{
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     width: 800px;
-    height: 600px;
+    height: 800px;
 }
 
+#sabores{
+    background-color: #8d4925;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    color: #ffc1d5;
+    font-size: 40px;
+    font-weight: bolder;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all 1s ease-in-out;
+}
+#sabores:hover{
+    transform: scale(1.1);
+    color: bisque;
+    background-color: #282827;
+}
 
 #imagens{
     width: 800px;
-    height: 600px;
+    height: 800px;
 }
 
 .primeiro{
-animation:carrossel 10s ease-in-out infinite; 
+animation:carrossel 10s ease-in-out infinite ; 
 }
 
 
 
 @keyframes carrossel{
     0%{
-        margin-left: 0px;
+        margin-left:800px;
     }
     50%{
         margin-left: -800px;
     }
     75%{
-        margin-left:-1580px ;
+        margin-left: -1600px;
+    }
+    100%{
+        
     }
 } 
 
@@ -50,10 +93,69 @@ animation:carrossel 10s ease-in-out infinite;
     display: flex;
     justify-content: space-evenly;
     margin-top: 200px;
+    background-image: url(fotos/novoFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
    
 }
+
+#opcao{
+    width: 300px;
+    height: 300px;
+   
+    border-radius: 20px;
+}
+
+.menus:hover{
+transform: scale(1.1);
+}
+
 .menus{
-    border: 2px solid black;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-end;
+font-size: 40px;
+color: white;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+#mara{
+    background-image: url(fotos/maracuja.jpg);
+    background-size: cover;
+ height: 400px;
+ border-radius: 30px;
+ font-family: inherit;
+}
+
+#choco{
+    background-image: url(fotos/chocola.png);
+    background-size: cover;
     height: 400px;
-    width: 200px;
+    border-radius: 30px;
+    font-family: inherit;
+}
+#briga{
+    background-image: url(fotos/brigadero.jfif);
+    background-size: cover;
+    height: 400px;
+    border-radius: 30px;
+    font-family: inherit;
+}
+#limao{
+    background-image: url(fotos/limao.jpg);
+    background-size: cover;
+    height: 400px;
+    border-radius: 30px;
+    font-family: inherit;
+    width: 250px;
+    text-align: center;
+
 }
