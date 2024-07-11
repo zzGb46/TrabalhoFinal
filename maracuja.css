@@ -1,0 +1,25 @@
+body{
+    background-color:#432616;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#butao{
+width: 100px;
+background-color: #e8c39e;
+border: 3px solid #46220f;
+border-radius: 30px;
+}
+
+
+#back{
+    display: flex;
+    flex-direction: column;
+    background-color: #b08e6b;
+    height: 100px;
+}
+
+#trufa{
+    
+}
+
