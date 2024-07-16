@@ -13,8 +13,9 @@ ul{
     justify-content: center;
     margin-bottom: -60px;
     background-color: #301f17;
-    width: 1500px;
+    width: 1000px;
     border-radius: 20px;
+    box-shadow: 10px 10px solid chocolate;
 }
 
 #central{
@@ -36,12 +37,7 @@ ul{
 }
 
 
-#linha{
-    display: flex;
-    overflow-x: hidden;
-    width: 800px;
-    height: 800px;
-}
+
 
 a{
     text-decoration: none;
@@ -72,6 +68,13 @@ a{
     transform: scale(1.1);
     color: bisque;
     background-color: #282827;
+}
+#linha{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 600px;
+    height: 600px;
 }
 
 #imagens{
@@ -109,6 +112,7 @@ animation-delay: 1s;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 100px;
  
    
 }
@@ -170,4 +174,42 @@ color: white;
     width: 250px;
     text-align: center;
 
+}
+footer{
+    background-color: #301f17;
+    color: white;
+    height: 400px;
+    margin: 50px;
+}
+#whats{
+    display: flex;
+    margin: 5px;
+    gap: 10px;
+}
+#zap{
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#alinhamento1{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  padding: 100px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#locais{
+    display: flex;
+}
+#local{
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
 }

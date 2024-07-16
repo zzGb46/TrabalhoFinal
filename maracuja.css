@@ -1,7 +1,8 @@
 body{
-    background-color:#432616;
+    background-image: linear-gradient(to top, #432616,#ffedba);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 #butao{
@@ -9,6 +10,7 @@ width: 100px;
 background-color: #e8c39e;
 border: 3px solid #46220f;
 border-radius: 30px;
+margin: 40px;
 }
 
 
@@ -20,6 +22,52 @@ border-radius: 30px;
 }
 
 #trufa{
+    opacity: 500px;
+    filter: 200px;
+}
+#fotosMara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
     
+}
+#botao1{
+border-radius: 30px;
+background-color: #ffedba;
+width: 70px;
+}
+#frutas1{
+    height: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    width: 400px;
+}
+#opcao{
+    width: 50px;
+    
+}
+#opcao1{
+    transform: rotate(180deg);
+    width: 50px;
+}
+#alinhamento2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 800px;
+    
+    
+}
+
+
+#para1{
+    color: white;
+    margin: 90px;
+    padding: 200px;
+    font-size: 30px;
+    text-align: center;
+   
 }
 
