@@ -1,6 +1,6 @@
-let img1= "fotos/maracujaOrig.jpg";
-let img2 = "fotos/maracujaOrig2.jpg";
-let img3 = "fotos/maracujaOrig3.jpg";
+let img1= "fotos/primeiraLimao.jpg";
+let img2 = "fotos/segundaTrufa.jpg";
+let img3 = "fotos/teceiraTrufa.jpg";
 
 function foi(){
     

@@ -1,7 +1,8 @@
 body{
-    background-image: linear-gradient(to top, #432616,#ffedba);
+    background-image: linear-gradient(to top, #daeed7,#ffedba);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
     
 }
 
@@ -49,7 +50,7 @@ width: 70px;
     
 }
 #opcao1{
-    transform: rotate(180deg);
+    
     width: 50px;
 }
 #alinhamento2{
@@ -57,14 +58,14 @@ width: 70px;
     justify-content:center;
     align-items: center;
     height: 800px;
-    margin: 30px;
+    margin: 40px;
     
     
 }
 
 
 #para1{
-    color: white;
+    color: #187a1f;
     margin: 90px;
     padding: 200px;
     font-size: 30px;
