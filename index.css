@@ -151,6 +151,15 @@ color: white;
  border-radius: 30px;
  font-family: inherit;
 }
+#mara1{
+    background-image: url(fotos/novoFundo.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: 200px;
+    color: pink;
+}
 
 #choco{
     background-image: url(fotos/chocola.png);
@@ -233,4 +242,24 @@ p{
 }
 #valores{
     
+}
+@media(max-width:1024px){
+    #alinhamento{
+            display: flex;
+            justify-content: space-around;
+            margin-left: -100px;
+    }
+    #fundo{
+
+    }
+    #novaLogo{
+       
+        width: 300px;
+    }
+    #Precos{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
 }
